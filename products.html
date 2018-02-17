@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>APPLE BERRY</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+<link rel="stylesheet" href="css/reset.css">
+<link rel="stylesheet" href="css/skeleton.css">
+<link rel="stylesheet" href="owlcarousel/assets/owl.carousel.min.css">
+<link rel="stylesheet" href="owlcarousel/assets/owl.theme.default.min.css">
+<link rel="stylesheet" href="css/style.css">
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="images/favicon.png">
+  
+   <!-- Java Script
+   --------------------------------------------------- -->
+   
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="owlcarousel/owl.carousel.min.js"></script>
+<script>
+$(document).ready(function(){
+  $(".downicon").click(function(){
+    $(".categories_toggle").slideToggle();
+  });
+});
+
+$(document).ready(function(){
+    $('.owl-carousel').owlCarousel(
+        {
+            loop: true,
+            nav: false,
+            dots: true,
+            items: 1,
+            autoplay: true
+        }
+    );
+});
+
+$(window).load(function(){
+  $(".slide_img img").click(function(){
+    var img_src = $(this).attr("src");
+    $(".slideshow_img img").attr("src", img_src);
+  });
+});
+
+
+</script>
+
+</head>
+<!-- head -->
+
+<body>
+    <header class="container">
+        <div class="row">
+            <div class="six columns">
+                <div class="sp_logo">
+                    <h1><a href="index.html"><img class="image_logo" src="images/top/logo.png" alt="APPLE BERRY" srcset="images/top/logo@2x.png 2x" /></a></h1>
+                </div>
+                <div class="pc_logo">
+                    <h1><a href="index.html"><img class="image_logo" src="images/top/logo.png" alt="APPLE BERRY" srcset="images/top/logo@2x.png 2x" /></a></h1>
+                </div>
+            </div>
+            <div class="six columns">
+                 <div class="sp_navi">
+                      <ul class="sp_navi_li">
+                        <li><a href="#"><img src="images/top_sp/fb.png" alt="FACEBOOK" /></a></li>
+                        <li><a href="#"><img src="images/top_sp/insta.png" alt="INSTA" /></a></li>
+                        <li><a href="#"><img src="images/top_sp/menu_icon.png" alt="MENU" /></a></li>
+                      </ul>
+                </div>
+                <div class="pc_navi">
+                  <ul class="pc_navi_li">
+                    <li><a href="#"><img src="images/top/menu_login.png" alt="LOGIN" /></a></li>
+                    <li><a href="#"><img src="images/top/menu_cart.png" alt="CART" /></a></li>
+                    <li><a href="#"><img src="images/top/menu_guide.png" alt="SHOPPING GUIDE" /></a></li>
+                    <li><a href="#"><img src="images/top/facebook.png" alt="FACEBOOK" /></a></li>
+                    <li><a href="#"><img src="images/top/insta.png" alt="INSTA" /></a></li>
+                  </ul>
+                </div>
+             </div>
+             </div>
+    </header>
+    
+<div id="contents" class="container">
+<div class="row">
+<div id="main" class="nine columns">
+             
+    <div class="list_nav">
+        <img src="images/list/home_icon.png" alt="home"/>
+        <div class="list_nav_text">HOME　/　カテゴリー名　/　商品名</div>
+    </div>    
+    
+<div class="product_area">
+        
+ <div class="product_title">  
+<div class="product_name">商品名が入ります</div>  
+<div class="number">fa0001-91</div>
+</div>
+
+    
+<div class="product_image">
+    
+<div class="slideshow_img">
+<img src="images/products/pro_img_01.jpg" alt="image">
+</div>
+
+<ul class="slide_img">
+  <li><img src="images/products/pro_img_01.jpg" alt="image"></li>
+  <li><img src="images/products/pro_img_02.jpg" alt="image"></li>
+  <li><img src="images/products/pro_img_03.jpg" alt="image"></li>
+  <li><img src="images/products/pro_img_04.jpg" alt="image"></li>
+  <li><img src="images/products/pro_img_05.jpg" alt="image"></li>
+  <li><img src="images/products/gray_pro_img.jpg" alt="image"></li>
+  <li><img src="images/products/gray_pro_img.jpg" alt="image"></li>
+  <li><img src="images/products/gray_pro_img.jpg" alt="image"></li>
+  <li><img src="images/products/gray_pro_img.jpg" alt="image"></li>
+  <li><img src="images/products/gray_pro_img.jpg" alt="image"></li>
+</ul>   
+</div>
+
+
+<img class="color_logo" src="images/products/title_color.png" alt="color/size">
+<table class="color_size">
+    <tr>
+        <th></th>
+        <th>カラー１</th>
+        <th>カラー１</th>
+    </tr>
+    <tr>
+        <th>サイズ</th>
+        <td>□</td>
+        <td>□</td>
+    </tr>
+</table>
+    
+ 
+<div class="price_quantity_box">
+    <div class="price_quantity_a">
+        <div class="price_a"><img src="images/products/title_price.png" alt="price"><img class="tax_in" src="images/products/price.png" alt="10,000yen">
+        </div>
+        <div class="quantity_a"><img class="quantity_logo" src="images/products/title_quantity.png" alt="quantity"><img class="square" src="images/products/rec.png" alt="">
+        </div>
+    </div>    
+    <div class="cart"><img src="images/products/add_to_cart.png" alt="cart">
+    </div>
+</div>
+
+<div class="product_description">
+    商品説明
+</div>    
+<h3 class="product_head">
+    ■説明タイトル説明タイトル説明タイトル説明タイトル
+</h3> 
+<p class="product_text">
+    説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト説明<br/>
+テキスト説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト説明テキ<br/>
+スト説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト
+</p>
+
+<table class="color_size_b">
+    <tr>
+        <th>カラー</th>
+        <td class="cell" colspan="2">説明文が入ります説明文が入ります説明文が入ります</td>
+    </tr>
+    <tr>
+        <th>サイズ</th>
+        <td class="cell" colspan="2">説明文が入ります説明文が入ります説明文が入ります</td>
+    </tr>
+</table>
+</div>
+
+<!-- product area -->  
+    
+<div class="sp_recent_title">
+            </div>
+<div class="pc_recent_title">
+            </div>
+           
+<div class="items">
+           <div class="box">
+             <div><img src="images/top/item_07.jpg" alt="image" /></div>
+              <p class="text">商品名が入ります商品名が入ります商品名が入ります</p>
+              <h3 class="price">￥10,000 (Tax in)</h3>
+           </div>
+           <div class="box">
+             <div><img src="images/top/item_08.jpg" alt="image" /></div>
+              <p class="text">商品名が入ります商品名が入ります商品名が入ります</p>
+<h3 class="price">￥10,000 (Tax in)</h3>
+           </div>
+           <div class="box">
+             <div><img src="images/top/item_09.jpg" alt="image" /></div>
+             <p class="text">商品名が入ります商品名が入ります商品名が入ります</p>
+<h3 class="price">￥10,000 (Tax in)</h3>
+           </div>    
+</div>          
+
+ <div class="shopping_guide">
+    <div class="sp_guide_title">
+        </div>
+    <div class="pc_guide_title">
+        </div>
+  
+   <div class="guide_contents">
+     <div class="delivery_contents">
+          <h3 class="subtitle">お届けについて</h3>
+          <img src="images/top/otodoke_banner.png" alt="otodoke" />
+          <h4>■○○運輸</h4>
+        <div class="text">送料 ¥000 円</div>
+        <h4>■ゆうパケット</h4>
+        <div class="text">ポスト投函となります。日時指定不可</div>
+    </div>
+  <div class="payment_contents">
+         <h3 class="subtitle">決済について</h3>
+         <h4>■カード決済</h4>
+         <img src="images/top/cards.png" alt="cards" />
+         <h4>■代金引換</h4>
+       <div class="text">代引き手数料が別途かかります</div>
+      <h4>■銀行振込</h4>
+       <div class="text">お振込手数料お客様負担。</br>
+            ご入金後の発送となります。
+         </div>
+  </div>
+ </div>
+ </div>
+  <!-- shopping_guide -->  
+
+</div>
+<!-- nine columns -->
+
+<div id="side" class="three columns">
+       <div class="search">
+            <img class="search_titile" src="images/top/itemserch.png" alt="search" />
+                <div class="search_box">
+                <p>Search..</p>
+                <img class="glass" src="images/top/search_icon.png" alt="search" />
+                </div>
+     </div>
+<div class="page_link">
+<img src="images/top/pagelink.png" alt="pagelink">
+<img src="images/top/next_icon.png" alt="next">
+</div>
+    <div class="categories">
+        <img src="images/top/categories.png" alt="categories" />
+        <img class="downicon" src="images/top/down_icon.png" alt="down_icon" />
+      </div>
+     <ul class="categories_toggle">
+      <li>
+       <div>カテゴリー名</div>
+       <div><img src="images/top/next_icon_gray.png" alt="next_icon" /></div>
+     </li>
+      <li>
+       <div>カテゴリー名</div>
+       <div><img src="images/top/next_icon_gray.png" alt="next_icon" /></div>
+     </li>
+      <li>
+       <div>カテゴリー名</div>
+       <div><img src="images/top/next_icon_gray.png" alt="next_icon" /></div>
+     </li>
+      <li>
+       <div>カテゴリー名</div>
+       <div><img src="images/top/next_icon_gray.png" alt="next_icon" /></div>
+     </li>
+      <li>
+       <div>カテゴリー名</div>
+       <div><img src="images/top/next_icon_gray.png" alt="next_icon" /></div>
+     </li>
+      <li>
+       <div>カテゴリー名</div>
+       <div><img src="images/top/next_icon_gray.png" alt="next_icon" /></div>
+     </li>
+     </ul>
+<div class="articles">
+ <ul>
+     <li>
+ <div class="about">
+        <img src="images/top/about.png" alt="about">
+    </div>
+    <div class="description">
+    <img class="subnail" src="images/top/about_img.jpg" alt="about">
+   <div class="text_part">
+   <p class="text">お店の説明お店の説明お店の説明がはいりますお店の説明お店の説明お店の説明</p>
+    <div class="more">
+        <img src="images/top/more_btn.png" alt="more">
+    </div>
+  </div>
+  </div>
+ </li>
+ <li>
+ <div class="about">
+        <img src="images/top/shop_info.png" alt="shop info">
+    </div>
+    <div class="description">
+        <img class="subnail" src="images/top/shopinfo_img.jpg" alt="about">
+   <div class="text_part">
+    <p class="text">お店の説明お店の説明お店の説明がはいりますお店の説明お店の説明お店の説明</p>
+    <div class="more">
+        <img src="images/top/more_btn.png" alt="more">
+    </div>
+  </div>
+  </div>
+ </li>
+</ul>
+</div>
+
+</div>
+
+
+ <!-- sidebar -->  
+ </div>
+</div>
+
+
+<footer class="container">
+        <div class="row">
+          <div class="twelve columns">
+            <div class="top_btn">
+            <img src="images/top/pagetop.png" alt="pagetop" />
+            </div>
+           <div class="footer_text">特定商取引に基づく表記 ・ プライバシーポリシー
+・ マイページ</div>
+           <div class="copyright">
+             copyright (C) APPLE BERRY all rights reserved.
+           </div>
+          </div>
+      </div>
+</footer>
+  
+<!-- footer -->   
+
+</body>
+</html>
