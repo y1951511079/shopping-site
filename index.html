@@ -39,6 +39,13 @@ $(document).ready(function(){
 });
 
 $(document).ready(function(){
+  $(".navi_icon").click(function(){
+    $(".navi_toggle").slideToggle();
+  });
+});
+
+
+$(document).ready(function(){
     $('.owl-carousel').owlCarousel(
         {
             loop: true,
@@ -71,9 +78,17 @@ $(document).ready(function(){
                       <ul class="sp_navi_li">
                         <li><a href="#"><img src="images/top_sp/fb.png" alt="FACEBOOK" /></a></li>
                         <li><a href="#"><img src="images/top_sp/insta.png" alt="INSTA" /></a></li>
-                        <li><a href="#"><img src="images/top_sp/menu_icon.png" alt="MENU" /></a></li>
+                        <li><a href="#"><img class="navi_icon" src="images/top_sp/menu_icon.png" alt="MENU" /></a></li>
                       </ul>
-                </div>
+                     
+    <div class="navi_toggle">                
+    <ul class="menu_toggle">
+      <li><img src="images/top/menu_login.png" alt="LOGIN" /></li>
+      <li><img src="images/top/menu_cart.png" alt="CART" /></li>
+      <li><img src="images/top/menu_guide.png" alt="SHOPPING GUIDE" /></li>
+     </ul>
+     </div>
+             </div>
                 <div class="pc_navi">
                   <ul class="pc_navi_li">
                     <li><a href="#"><img src="images/top/menu_login.png" alt="LOGIN" /></a></li>
