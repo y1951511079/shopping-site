@@ -9,7 +9,8 @@ body {
   margin-bottom: 0; }
 
 .sp_logo {
-  text-align: center; }
+  text-align: center;
+  margin-top: 20px; }
 
 .sp_navi_li {
   display: flex;
@@ -18,39 +19,59 @@ body {
 
 .sp_navi_li li {
   list-style: none;
-  margin: 10px;
+  margin: 5px;
   padding: 0; }
 
 .navi_toggle {
   display: none;
-  margin: 0; }
+  max-width: calc( 100% - 40px); }
 
 .menu_toggle {
+  position: absolute;
+  z-index: 2;
   display: flex;
-  justify-content: center;
-  line-height: 1;
-  font-size: 12px;
-  margin-bottom: 2px;
-  list-style: none; }
+  flex-direction: column;
+  text-align: left;
+  line-height: 2;
+  font-size: 16px;
+  margin: 0;
+  list-style: none;
+  background: #ff6d77;
+  padding: 15px;
+  font: hirakakuprow3;
+  color: white;
+  font-style: bold;
+  box-sizing: border-box;
+  width: 100%; }
 
 .menu_toggle li {
-  margin: 0 10px; }
+  padding: 10px 0;
+  width: auto; }
+
+@media (max-width: 400px) {
+  .menu_toggle {
+    max-width: calc( 100% - 40px); } }
+.navi_border {
+  border-top: 1px solid white;
+  padding: 0; }
 
 @media (max-width: 550px) {
   .pc_logo, .pc_navi {
     display: none; } }
 .carousel {
-  height: 200px;
+  height: 150px;
   max-width: 100%;
   background-image: url("../images/top/ca_banner.jpg");
   background-size: cover;
   margin: 0;
-  margin-top: 15px; }
+  margin-top: 10px;
+  position: relative; }
 
 .owl-theme .owl-dots .owl-dot span {
-  width: 20px;
-  height: 4px;
-  margin: 0px 7px;
+  width: 30px;
+  height: 3px;
+  margin: 0;
+  margin-right: 15px;
   background: #aaaaaa;
   display: block;
   -webkit-backface-visibility: visible;
@@ -100,9 +121,12 @@ body {
 
 p.text {
   text-align: left;
-  font-size: 14px;
+  font-size: 13px;
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  font: hirakakuprow3;
+  font-style: bold;
+  line-height: 1.5; }
 
 h3.price {
   font-size: 12px;
@@ -184,7 +208,7 @@ img.search_titile {
   color: #b5b5b5;
   background: #eeeeee;
   font: hirakakuprow3;
-  margin-top: 10px; }
+  margin: 10px 0; }
 
 .search_box p {
   font-size: 100%;
@@ -267,6 +291,9 @@ img.glass {
   padding-bottom: 25px;
   line-height: 1; }
 
+.top_btn img {
+  width: 30%; }
+
 .list_nav {
   padding: 14px;
   background: #e8e4da;
@@ -300,7 +327,7 @@ img.glass {
   font-size: 20px;
   color: white;
   background: #887f69;
-  padding: 10px 40px;
+  padding: 7px 45px;
   margin: 20px 0; }
 
 .sp_recent_title {
@@ -490,13 +517,14 @@ img.tax_in {
 
   .pc_logo {
     text-align: left;
-    text-align: bottom; }
+    text-align: bottom;
+    margin-top: 20px; }
 
   .pc_navi_li {
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
-    padding-top: 30px; }
+    padding-top: 50px; }
 
   .pc_navi_li li {
     list-style: none;
@@ -614,7 +642,8 @@ img.tax_in {
     padding: 7px;
     color: #b5b5b5;
     background: #eeeeee;
-    max-width: 100%; }
+    max-width: 100%;
+    margin: 10px 0 0 0; }
 
   .search_box p {
     font-size: 100%;
@@ -928,7 +957,7 @@ img.tax_in {
     text-align: left; } }
 .footer_text {
   font: hirakakuprow3;
-  font-size: 12px;
+  font-size: 13px;
   text-align: center;
   margin: 0;
   padding: 20px; }
@@ -937,7 +966,7 @@ img.tax_in {
   color: #c8c5be;
   text-align: center;
   line-height: 1;
-  font-size: 11px;
+  font-size: 12px;
   margin-bottom: 50px;
   padding: 0; }
 

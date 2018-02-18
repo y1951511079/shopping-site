@@ -38,12 +38,14 @@ $(document).ready(function(){
   });
 });
 
-$(document).ready(function(){
-  $(".navi_icon").click(function(){
+
+
+$(function(){
+  $(".navi_toggle").css("display","none");
+  $(".navi_icon").on("click", function() {
     $(".navi_toggle").slideToggle();
   });
 });
-
 
 $(document).ready(function(){
     $('.owl-carousel').owlCarousel(
@@ -83,9 +85,10 @@ $(document).ready(function(){
                      
     <div class="navi_toggle">                
     <ul class="menu_toggle">
-      <li><img src="images/top/menu_login.png" alt="LOGIN" /></li>
-      <li><img src="images/top/menu_cart.png" alt="CART" /></li>
-      <li><img src="images/top/menu_guide.png" alt="SHOPPING GUIDE" /></li>
+      <li>ログイン</li>
+      <li class="navi_border">カート</li>
+      <li class="navi_border">マイページ</li>
+      <li class="navi_border">ショッピングガイド</li>
      </ul>
      </div>
              </div>
@@ -110,6 +113,8 @@ $(document).ready(function(){
             <div class="carousel"></div>
             <div class="carousel"></div>
             <div class="carousel"></div>
+            <div class="carousel"></div>
+
         </div>
           
     <div class="new_items">
